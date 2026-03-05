@@ -80,9 +80,18 @@ def count_vowels(s: str) -> int:
 #   - Must return a new string.
 #   - Do NOT print anything.
 #   - Do NOT use built-in reverse() method.
-#
+#"cat"
+# 0 1 2
 def reverse_string(s: str) -> str:
-    pass
+    answer = ""
+    index = len(s) - 1 
+    while index >= 0:
+        answer += s[index]     #add the final number of the string from the list
+        index -= 1      #make the list smaller and loop it until you reach the first letter/ number
+    return answer
+        
+
+    
 
 
 # -------------------------------------------------
